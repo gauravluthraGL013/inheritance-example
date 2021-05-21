@@ -14,6 +14,10 @@ namespace inheritance_example
             {
                 Console.WriteLine("i am in the cosntructor vehicle");
             }
+            public void set_vname(string v_name)
+            {
+                name = v_name;
+            }
         }
 
         // Derived Class
@@ -23,6 +27,9 @@ namespace inheritance_example
             {
                 Console.WriteLine("i  am in the derived class");
                 Truck truck_obj = new Truck();
+                truck_obj.name = "mercedes";
+                
+                    
             }
 
         }
