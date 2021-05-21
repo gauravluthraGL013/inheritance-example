@@ -36,6 +36,11 @@ namespace inheritance_example
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Truck truck_obj = new Truck();
+
+            truck_obj.name = "mercedes";
+            truck_obj.set_vname("toyota");
+
         }
     }
 }
