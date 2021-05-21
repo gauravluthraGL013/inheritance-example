@@ -9,6 +9,7 @@ namespace inheritance_example
         public class vehicle
         {
             public string name { get; set; }
+            private string make { get; set; }
             public vehicle()
             {
                 Console.WriteLine("i am in the cosntructor vehicle");
@@ -21,6 +22,7 @@ namespace inheritance_example
             public Truck()
             {
                 Console.WriteLine("i  am in the derived class");
+                Truck truck_obj = new Truck();
             }
 
         }
